@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.unipu.inf.ma.pametnigrad.fragments.EditFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/photo_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Priložite sliku"
+                android:background="@drawable/grad_bg"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/titleText"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Naslov"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Opis prijave"/>
+
+        <Button
+            android:id="@+id/location_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:text="Odaberite lokaciju"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lokacija"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Pošalji"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/grad_gb"/>
+
+    </LinearLayout>
+
+</FrameLayout>

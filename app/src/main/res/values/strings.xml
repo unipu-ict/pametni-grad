@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PametniGrad</string>
+
+    <string name="sliding_menu">SlidingMenu</string>
+
+    <string name="moto">Slanje problema ispravnoj osobi, timu, ovlašteniku ili izvođaču, na temelju lokacije, kategorije i prioriteta.</string>
+    <string name="moto2">Za građane koji žele upravljati svojim gradom ili kvartom.</string>
+
+    <string-array name="menu_main">
+        <item>Glavni</item>
+        <item>Pregled</item>
+        <item>Rješenja</item>
+        <!--<item>Prijavi</item>-->
+        <item>Administrator</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Buka</item>
+        <item>Napuštanje vozila</item>
+        <item>Bespravna gradnja</item>
+        <item>Bespravno sječenje stabala</item>
+        <item>Ispuštanje sadržaja septičke jame</item>
+        <item>Onečišćenje vodenih površina</item>
+        <item>Zlostavljanje životinja</item>
+        <item>Paljenje smeća</item>
+        <item>Urušavanje zgrade</item>
+        <item>Svjetlosna onečišćenja</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/home</item>
+        <item>@drawable/list</item>
+        <item>@drawable/done</item>
+        <!--<item>@drawable/create</item>-->
+        <item>@drawable/gorillawhite</item>
+    </array>
+
+</resources>
